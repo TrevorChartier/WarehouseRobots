@@ -8,7 +8,7 @@ The robots are tasked with retrieving specific shelves and delivering them to de
 
 ## Overview
 
-The environment is a **10×15 discrete grid** containing:
+The environment is a 10×15 discrete grid containing:
 
 - 16 uniquely identified shelves (`S1–S16`)
 - Two robots (`R1`, `R2`)
@@ -17,13 +17,13 @@ The environment is a **10×15 discrete grid** containing:
 
 Each robot can move, pick up, and put down shelves within valid states (no collisions or out-of-bounds movement).
 
-**Goal state:** shelf `S6` and shelf `S10` are placed at the packing station cells.
+**Goal state:** shelf `S6` and shelf `S14` are placed at the packing station cells.
 
 ---
 
 ## Search and Heuristic
 
-A **graph search approach** (e.g., A\*) is used to find the optimal sequence of joint actions minimizing total cost.
+A **graph search approach (A\*)** is used to find the optimal sequence of joint actions minimizing total cost.
 
 The **heuristic function** combines:
 
@@ -35,7 +35,7 @@ This heuristic is **admissible and consistent**, ensuring optimality.
 
 ---
 
-The included video demonstrates the robots executing the computed path.
+This video demonstrates the robots executing the computed path. I found it cool to watch the algorithm figure out it was more efficient to move a shelf out of the way rather than go around it.
 
 https://github.com/user-attachments/assets/c3a9c142-700c-4b2e-b9d4-c0b6269d9959
 
