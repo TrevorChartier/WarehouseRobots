@@ -1,6 +1,6 @@
 # Two-Robot Warehouse Path Planning
 
-This project applies **graph search algorithms** to coordinate two autonomous robots in a **simulated warehouse environment**.  
+This project applies graph search algorithms to coordinate two autonomous robots in a simulated warehouse environment.  
 The robots are tasked with retrieving specific shelves and delivering them to designated packing stations — similar in concept to [**Amazon’s order-picking robots**](https://www.youtube.com/watch?v=Ox05Bks2Q3s)
 .
 
